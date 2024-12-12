@@ -1,0 +1,8 @@
+frutas    = ["manzana", "uva", "cereza"]
+adjetivos = ["verde", "grande", "sabrosa"]
+
+desde(i=0; i < lista.longitud(frutas); i++)
+  desde (e=0; e < lista.longitud(adjetivos); e++)
+    escribir (frutas[i].." "..adjetivos[e])
+  fin
+fin

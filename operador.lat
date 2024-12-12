@@ -1,0 +1,16 @@
+#definir variables
+x = 5
+y = 2
+
+#definir operador
+z = x ^ y
+
+#imprimir operador
+escribir (z)
+#utilizar la librería mate.pot para sustiruir el operador ^
+imprimir(mate.pot(x,y))
+
+d = 6
+d ++
+escribir("")
+escribir(d)

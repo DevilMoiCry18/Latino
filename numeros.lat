@@ -1,0 +1,5 @@
+x = 64
+y = 338.8
+calculo = -y + x
+
+escribir("este es el resultado:\a " .. calculo)

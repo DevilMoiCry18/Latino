@@ -1,0 +1,5 @@
+para i en rango(1, 11)
+  para j en rango(1, 11)
+    poner(i .. ' x ' .. j .. ' = ' .. i * j)
+  fin
+fin

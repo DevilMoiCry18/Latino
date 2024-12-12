@@ -1,0 +1,18 @@
+notas = 4
+
+elegir (notas)
+    caso  5:
+        escribir ("suficiente")
+    caso  6:
+        escribir ("suficiente")
+    caso  7:
+        escribir ("notable")
+    caso  8:
+        escribir ("notable")
+    caso 9:
+        escribir ("sobresaliente")
+    caso 10:
+        escribir ("sobresaliente")
+    defecto:
+        escribir ("insuficiente")
+fin

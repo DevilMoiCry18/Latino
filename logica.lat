@@ -1,0 +1,13 @@
+#definir variables
+x = 6
+y = 4
+
+#imprimir operador lógico
+escribir ("puerta AND:")
+escribir (x < 10 && y > 1)
+escribir ("")
+escribir ("puerta OR")
+escribir (x == 5 || y == 5)
+escribir ("")
+escribir ("Puerta NOT")
+escribir (!(x == y))

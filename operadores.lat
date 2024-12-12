@@ -1,0 +1,11 @@
+# Definir variable
+numero = 10
+
+# Crear mensaje con condicional
+si (numero < 0) 
+    mensaje = " es negativo"
+sino
+    mensaje = " es positivo"
+fin
+# Representar resultado
+escribir("¿El número es positivo o negativo? " .. mensaje)

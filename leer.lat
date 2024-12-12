@@ -1,0 +1,7 @@
+funcion bienvenida(nombre)
+    escribir ("Bienvenido "..nombre)
+  fin
+  
+  escribir("Hola como te llamas?")
+  usuario=leer()
+  bienvenida(usuario)

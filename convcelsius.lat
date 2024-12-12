@@ -1,0 +1,10 @@
+funcion convCelsius (fahrenheit)
+    retornar (5/9) * (fahrenheit-32)
+  fin
+  
+  //Aquí usamos una variable
+  x = convCelsius(77)
+  escribir("La temperatura es de "..x.." celsius")
+  
+  //Aquí usamos directamente la función
+  escribir("La temperatura es de "..convCelsius(77).." celsius")

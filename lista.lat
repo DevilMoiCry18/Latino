@@ -1,0 +1,13 @@
+coche = ["ferrari", "lamobrgini", "bugatti"]
+escribir (coche[0])
+escribir ("")
+persona =  {"nombre": "Melvin", "apellido": "Guerrero", "edad": 50, "etimología": "Latino"}
+escribir (persona.apellido)
+dato = nulo
+escribir ("")
+escribir (dato)
+
+x = ""
+y = nulo
+escribir (tipo(x))
+escribir (tipo(y))

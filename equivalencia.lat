@@ -1,0 +1,9 @@
+nombre1 = "Bill Gates"
+nombre2 = 'Steve Jobs'
+
+respuesta1 = "Su nombre es 'Gillermo Portones'"
+respuesta2 = 'Su nombre es "Esteban trabajos"'
+
+imprimir ("En español, el nombre de " .. nombre1 .. ": " .. respuesta1)
+escribir ("En español, el nombre de " .. nombre2 .. ": " .. respuesta2)
+poner ("En español, el nombre de " .. nombre2 .. ": " .. respuesta2)

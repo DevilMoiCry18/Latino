@@ -1,0 +1,17 @@
+#declarar variables
+x = 120
+y = 80
+z = 98
+
+#declarar condición si
+si x > y && z > x
+    escribir ("ambas condiciones se cumplieron")
+sino
+    escribir ("una condición no se cumplió")
+fin
+escribir (" ")
+si x > y || y > z
+    escribir ("al menos una condición se cumplió")
+sino
+    escribir ("no se cumplió ninguna condición")
+fin

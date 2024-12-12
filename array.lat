@@ -1,0 +1,10 @@
+carro = {
+  "marca"  : "Toyota",
+  "modelo" : "Camry",
+  "anio"   : 2011,
+  "color"  : "Blanco"
+}
+
+desde(i=0; i < dic.longitud(carro); i++)                          //Obtenemos la longitud del diccionario
+  escribir(dic.llaves(carro)[i].." | "..dic.valores(carro)[i])    //Devolverá cada propiedad del diccionario con su valor
+fin

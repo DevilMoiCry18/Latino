@@ -1,0 +1,11 @@
+# Definir dos variables
+numero1 = 5
+numero2 = 3
+
+# Realizar la suma
+resultado = numero1 + numero2
+
+mensaje = "El resultado de la suma es: " .. resultado
+
+# Imprimir el resultado
+escribir(mensaje)

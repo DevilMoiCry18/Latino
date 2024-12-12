@@ -1,0 +1,16 @@
+#declarar variables
+x = 9
+y = 8
+
+#declarar si
+si x == y
+    #insertar bloque de código
+    escribir("X es igual a Y")
+#declarar segunda condición sino
+osi x > y
+    #insertar bloque de código
+    escribir("X es mayor que Y")
+#declarar tercera condición sino
+osi x < y
+    escribir ("X es menor que Y")
+fin

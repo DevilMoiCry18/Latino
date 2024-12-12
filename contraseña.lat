@@ -1,0 +1,37 @@
+# Definir la clave correcta
+claveCorrecta = "secreto"
+
+# Función para comprobar la clave
+funcion verificarClave()
+    escribir("Por favor, ingrese la clave:")
+    claveIngresada = leer()
+
+    # Verificar si la clave ingresada es correcta
+    si claveIngresada == claveCorrecta
+        escribir("¡Contraseña correcta! Acceso permitido.")
+        retornar verdadero
+    sino
+        escribir("Contraseña incorrecta. Intenta nuevamente.")
+        retornar falso
+    fin
+fin
+
+# Intentar ingresar la clave hasta que sea correcta
+intentosMaximos = 0  # Número máximo de intentos
+intento = 3  # Variable para contar los intentos
+
+mientras intento > intentosMaximos
+    # Llamar a la función de verificación
+    si verificarClave() == verdadero
+        escribir("¡Acceso concedido!")
+        romper
+    sino
+        intento = intento - 1
+        escribir("Intentos restantes " .. intento)
+    fin
+fin
+
+# Si se alcanzan los intentos máximos
+si intento == intentosMaximos
+    escribir("Has alcanzado el número máximo de intentos. Acceso denegado.")
+fin

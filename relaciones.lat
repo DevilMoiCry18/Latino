@@ -1,0 +1,7 @@
+x = "Hola mundo"
+
+si x ~= "^Hola"
+    escribir("x empieza con hola")
+sino
+    escribir("x NO empieza con hola")
+fin

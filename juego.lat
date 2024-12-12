@@ -1,0 +1,44 @@
+// Definir las variables
+escribir("Bienvenido al juego de adivinar el número")
+escribir("Configuración del juego:")
+
+// Configuración del rango máximo y número de intentos
+escribir("Introduce el número máximo para el rango de adivinación:")
+maximo=leer()   // Leer el valor máximo para el número aleatorio
+escribir("Introduce el número de intentos:")
+intentos=leer()  // Leer el número de intentos permitidos
+
+// Generar el número aleatorio entre 1 y el número máximo
+numero_secreto = mate.alt(1, maximo)
+
+// Iniciar el juego
+contador_intentos = 0
+encontrado = falso
+
+// Comenzar el ciclo de intentos
+mientras contador_intentos < intentos || encontrado == falso
+    escribir("Intento ".. contador_intentos + 1 .." de ".. intentos)
+    escribir("Adivina el número entre 1 y ".. maximo ..":")
+    adivinanza=leer()  // Leer la adivinanza del jugador
+
+    // Comprobar si la adivinanza es correcta
+    si adivinanza == numero_secreto
+        encontrado = verdadero
+        escribir("¡Felicidades! Adivinaste el número ".. numero_secreto .." correctamente.")
+        escribir("Gracias por jugar")
+        romper
+    osi adivinanza < numero_secreto
+        escribir("El número es mayor. Intenta nuevamente.")
+        contador_intentos = contador_intentos + 1
+    osi adivinanza > numero_secreto
+        escribir("El número es menor. Intenta nuevamente.")
+        contador_intentos = contador_intentos + 1
+    fin
+
+// Si el jugador se quedó sin intentos
+si contador_intentos > intentos
+    escribir("Lo siento, se acabaron tus intentos. El número era: ".. numero_secreto)
+    escribir("Gracias por jugar")
+fin
+
+fin
